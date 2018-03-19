@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Composer dump-autoload" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\ProgramData\ComposerSetup\bin\composer.bat" />
+      <option name="PARAMETERS" value="dump-autoload" />
+      <option name="WORKING_DIRECTORY" value="C:/inetpub/ipro" />
+    </exec>
+  </tool>
+</toolSet>

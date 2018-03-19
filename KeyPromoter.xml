@@ -1,0 +1,10 @@
+<application>
+  <component name="KeyPromoterConfiguration">
+    <option name="settings">
+      <KeyPromoterSettings>
+        <option name="proposeToCreateShortcutCount" value="0" />
+        <option name="fixedTipPosistion" value="true" />
+      </KeyPromoterSettings>
+    </option>
+  </component>
+</application>

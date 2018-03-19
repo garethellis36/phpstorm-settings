@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JavaScript" injector-id="php">
+      <display-name>CakePHP HtmlHelper::scriptBlock</display-name>
+      <place disabled="true"><![CDATA[phpLiteralExpression().inside(phpFunctionReference().withText(string().startsWith("$this->Html->scriptBlock"))).andNot(phpLiteralExpression().inside(phpElement().withText(string().startsWith("["))))]]></place>
+    </injection>
+  </component>
+</application>

@@ -1,0 +1,72 @@
+<templateSet group="PHP">
+  <template name="foretpl" value="foreach ($ITERABLES$ as $VAR_VALUE$): ?&gt;&#10;    $END$&#10;&lt;?php endforeach; ?&gt;" description="foreach in html template form" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cakejoin" value="[&#10;    &quot;table&quot; =&gt; &quot;$TABLE$&quot;,&#10;    &quot;alias&quot; =&gt; &quot;$ALIAS$&quot;,&#10;    &quot;type&quot; =&gt; &quot;$TYPE$&quot;,&#10;    &quot;conditions&quot; =&gt; [&#10;        &quot;$ALIAS$.id = $CONDITION$&quot;,&#10;    ],&#10;]," description="" toReformat="true" toShortenFQNames="true">
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ALIAS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="INNER" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="test" value="/**&#10; * @test&#10; * @covers $COVERS$&#10; */&#10;public function $TESTNAME$()&#10;{&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="COVERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TESTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cakeuse" value="App::uses(&quot;$CLASS$&quot;, &quot;$CLASS_FOLDER$&quot;);" description="App::uses(&quot;Class&quot;, &quot;Folder&quot;);" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_FOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pmpl" value="&quot;$SERVICENAME$&quot; =&gt; function($c) {&#10;    $SERVICEDEFINITION$&#10;}," description="Define a pimple service" toReformat="true" toShortenFQNames="true">
+    <variable name="SERVICENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERVICEDEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cakefixtures" value="public $fixtures = [&#10;    &quot;$FIXTURE$&quot;,&#10;];" description="CakePHP test fixtures array" toReformat="true" toShortenFQNames="true">
+    <variable name="FIXTURE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="phinxtable" value="$this-&gt;table(&quot;$TABLENAME$&quot;)&#10;     -&gt;" description="$table = $this-&gt;table(&quot;tablename&quot;)" toReformat="true" toShortenFQNames="true">
+    <variable name="TABLENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="proptag" value="property $CLASSNAME$ $VAR_PROPERTY_NAME$" description="@property tag" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="surroundwithfunction" value="$FUNCTION$($SELECTION$)$END$" description="surrounds selection with a function" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="laravel_new_table" value="Schema::create('$TABLE$', function (Blueprint $table) {&#10;    $table-&gt;increments(&quot;id&quot;);&#10;    &#10;    $END$    &#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Expression" value="true" />
+    </context>
+  </template>
+</templateSet>

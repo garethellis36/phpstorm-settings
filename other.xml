@@ -1,0 +1,41 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:C:/inetpub/itrans-portal/phpstorm_code_style.xml" />
+  </component>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe">
+      <version-cache version="6.9.5" last-modified="1485897428000" />
+      <npm-package value="C:/Program Files/nodejs/node_modules/npm" />
+    </local-interpreter>
+  </component>
+  <component name="PhpRefactoringSettings">
+    <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
+  </component>
+  <component name="RecentTaskRepositories">
+    <Trello shared="false">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <option name="currentBoard">
+        <TrelloBoard id="58a30acbf0fd44a2e442a2b2" name="iPro 1.0" />
+      </option>
+      <option name="currentList">
+        <TrelloList id="58b019dab3eae7719eb1b7c0" name="Active" />
+      </option>
+      <option name="currentUser">
+        <TrelloUser id="57ed4ea455c34793b34f8629" name="garethellis5" />
+      </option>
+      <password>df9edfc8df9ddf93df98df9adf9fdfc8dfccdf98df9edf93df98df9bdf9cdf99dfcfdf9bdf93df98dfcfdf9fdf9fdf9bdf9cdf9edf9bdf98dfccdfccdf98dfc8df9adfccdf98dfc8dfcedfcbdf9adfc9df9cdfcedf92df9fdf92df9fdfccdfcedf98dfcbdfcedfcbdfcedf9ddf99df98dfcbdf9cdf99df9bdf9cdfc8dfcbdfcc</password>
+      <option name="includeAllCards" value="true" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="url" value="https://api.trello.com" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username />
+    </Trello>
+  </component>
+</application>
