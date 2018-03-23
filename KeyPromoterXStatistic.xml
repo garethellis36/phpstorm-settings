@@ -25,14 +25,6 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Jump to Console...">
-        <Item>
-          <IdeaActionID>Jdbc.OpenConsole.Any</IdeaActionID>
-          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
-          <Description>Jump to Console...</Description>
-          <Count>4</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Start Listening for PHP Debug Connections">
         <Item>
           <IdeaActionID>PhpListenDebugAction</IdeaActionID>
@@ -57,6 +49,14 @@
           <ShortCut>'Shift+Enter'</ShortCut>
           <Description>Data Source Properties</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Jump to Console...">
+        <Item>
+          <IdeaActionID>Jdbc.OpenConsole.Any</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Jump to Console...</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
