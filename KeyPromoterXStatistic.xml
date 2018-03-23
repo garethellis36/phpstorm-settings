@@ -59,6 +59,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop Listening for PHP Debug Connections">
+        <Item>
+          <IdeaActionID>PhpListenDebugAction</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+F9'</ShortCut>
+          <Description>Stop Listening for PHP Debug Connections</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Synchronize">
         <Item>
           <IdeaActionID>DatabaseView.SynchronizeAction</IdeaActionID>
