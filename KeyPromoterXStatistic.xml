@@ -30,7 +30,7 @@
           <IdeaActionID>PhpListenDebugAction</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F9'</ShortCut>
           <Description>Start Listening for PHP Debug Connections</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>
