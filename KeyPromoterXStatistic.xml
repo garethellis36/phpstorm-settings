@@ -30,7 +30,7 @@
           <IdeaActionID>Jdbc.OpenConsole.Any</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Jump to Console...</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Start Listening for PHP Debug Connections">
@@ -43,6 +43,14 @@
       </Statistic>
     </option>
     <option name="suppressed">
+      <Statistic Action="Commit">
+        <Item>
+          <IdeaActionID>Console.Transaction.Commit</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+Enter'</ShortCut>
+          <Description>Commit</Description>
+          <Count>5</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Data Source Properties">
         <Item>
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
