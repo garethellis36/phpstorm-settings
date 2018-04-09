@@ -5,6 +5,11 @@
       <PhpCSConfiguration />
     </phpcs_settings>
   </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="C:\PHP7\php.exe" id="68865206-a513-478a-a661-f7ead2a8eb46" name="PHP 7" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7">
@@ -100,7 +105,7 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
-            <configuration_option name="memory_limit" value="256M" />
+            <configuration_option name="memory_limit" value="128M" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -138,9 +143,9 @@
             <configuration_option name="opcache.enable" value="1" />
             <configuration_option name="opcache.enable_cli" value="0" />
             <configuration_option name="opcache.enable_file_override" value="0" />
-            <configuration_option name="opcache.error_log" value="" />
+            <configuration_option name="opcache.error_log" value="C:\PHP7\opcache\opcache.log" />
             <configuration_option name="opcache.fast_shutdown" value="0" />
-            <configuration_option name="opcache.file_cache" value="" />
+            <configuration_option name="opcache.file_cache" value="C:\PHP7\opcache" />
             <configuration_option name="opcache.file_cache_consistency_checks" value="1" />
             <configuration_option name="opcache.file_cache_fallback" value="1" />
             <configuration_option name="opcache.file_cache_only" value="0" />
@@ -153,7 +158,7 @@
             <configuration_option name="opcache.max_file_size" value="0" />
             <configuration_option name="opcache.max_wasted_percentage" value="5" />
             <configuration_option name="opcache.memory_consumption" value="64" />
-            <configuration_option name="opcache.mmap_base" value="" />
+            <configuration_option name="opcache.mmap_base" value="0x20000000" />
             <configuration_option name="opcache.optimization_level" value="0x7FFFBFFF" />
             <configuration_option name="opcache.preferred_memory_model" value="" />
             <configuration_option name="opcache.protect_memory" value="0" />
@@ -263,7 +268,7 @@
             <configuration_option name="xdebug.force_display_errors" value="0" />
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
-            <configuration_option name="xdebug.idekey" value="PHPSTORM" />
+            <configuration_option name="xdebug.idekey" value="" />
             <configuration_option name="xdebug.max_nesting_level" value="256" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
@@ -310,7 +315,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.0">
+            <debugger_info debugger="xdebug" debugger_version="2.4.1">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -345,6 +350,7 @@
             <extension name="openssl" />
             <extension name="pcre" />
             <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
             <extension name="session" />
             <extension name="soap" />
             <extension name="sqlite3" />
